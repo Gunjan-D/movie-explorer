@@ -4,7 +4,7 @@ A Next.js web application for searching movies, viewing details, and managing yo
 
 ## 🚀 Live Demo
 
-[Deploy on Vercel](https://vercel.com) - Coming soon
+[Deploy on Vercel]([https://vercel.com](https://movie-explorer-gamma-two.vercel.app/)) 
 
 ## ✨ Features
 
