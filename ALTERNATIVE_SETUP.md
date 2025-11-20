@@ -1,4 +1,4 @@
-# Specual Note: Alternative Installation Methods for Node.js (No Admin Required, I faced this issue) 
+# Special Note: Alternative Installation Methods for Node.js (No Admin Required, I faced this issue) 
 
 ## If You Don't Have Admin Access (I was not having admin access)
 
