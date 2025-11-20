@@ -1,10 +1,10 @@
-# Movie Explorer Project - Copilot Instructions
+# Movie Explorer Project - Instructions
 
 ## Project Overview
 Next.js Movie Explorer application with TypeScript, TMDB API integration, and favorites management.
 
 ## Progress Tracking
-- [x] Create copilot-instructions.md file
+- [x] Create instructions.md file
 - [ ] Get project setup info
 - [ ] Scaffold Next.js project
 - [ ] Create project structure
