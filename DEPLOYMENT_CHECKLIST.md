@@ -2,9 +2,7 @@
 
 ## ✅ Status: Ready to Deploy!
 
-Your code is ready and committed to Git. Follow these steps to deploy:
 
----
 
 ## STEP 1: Get TMDB API Key ⏳
 
@@ -18,7 +16,7 @@ Your code is ready and committed to Git. Follow these steps to deploy:
    - Click "Create" or "Request an API Key"
    - Choose "Developer" option
    - Fill in the form (can use dummy URL like http://localhost:3000)
-   - Copy your API key (looks like: `abc123def456ghi789jkl012mno345pq`)
+   - Copy your API key (looks like: `abc123def456ghi789jk....`)
    - **Save it somewhere safe** - you'll need it for Vercel!
 
 ---
@@ -39,22 +37,16 @@ Your code is ready and committed to Git. Follow these steps to deploy:
    
 3. **Click "Create repository"**
 
-4. **Copy the repository URL** (it will look like):
-   ```
-   https://github.com/YOUR-USERNAME/movie-explorer.git
-   ```
-
 ---
 
 ## STEP 3: Push Code to GitHub ⏳
 
 **Run these commands in VS Code terminal:**
 
-Replace `YOUR-USERNAME` with your actual GitHub username!
 
 ```powershell
-# Add GitHub as remote (replace YOUR-USERNAME!)
-git remote add origin https://github.com/YOUR-USERNAME/movie-explorer.git
+# Add GitHub as remote 
+git remote add origin https://github.com/Gunjan-D/movie-explorer.git
 
 # Push your code
 git push -u origin main
@@ -109,102 +101,3 @@ git push -u origin main
 
 ---
 
-## STEP 5: Submit Your Project ⏳
-
-**Email Response Template:**
-
-```
-Subject: Take-Home Project Submission - Movie Explorer
-
-Hello,
-
-Please find my Movie Explorer project submission:
-
-GitHub Repository: https://github.com/YOUR-USERNAME/movie-explorer
-Live Demo: https://movie-explorer-xyz123.vercel.app
-
-Project Features:
-✅ Search movies by title with TMDB API
-✅ View detailed movie information (poster, overview, year, runtime, genres)
-✅ Add/remove favorites with personal ratings (1-5 stars) and notes
-✅ LocalStorage persistence for favorites
-✅ Server-side API proxy for secure key management
-✅ Comprehensive error handling
-✅ Responsive design with Tailwind CSS
-
-Technical Stack:
-- Next.js 14 with App Router
-- TypeScript
-- Tailwind CSS
-- TMDB API integration via Next.js API routes
-
-Setup Instructions:
-Complete setup and run instructions are available in the README.md file.
-
-Time Spent: Approximately 3 hours
-
-Documentation:
-- README.md: Full documentation with technical decisions and tradeoffs
-- DEPLOYMENT_GUIDE.md: Step-by-step deployment instructions
-- ALTERNATIVE_SETUP.md: Alternative setup methods
-
-I look forward to discussing my implementation decisions and tradeoffs in the technical interview.
-
-Best regards,
-Gunjan Deshpande
-```
-
-**Replace:**
-- `YOUR-USERNAME` with your GitHub username
-- `xyz123` with your actual Vercel deployment URL
-- Add any additional notes you want to mention
-
----
-
-## 📋 Final Checklist
-
-- [ ] TMDB API key obtained
-- [ ] GitHub repository created (`movie-explorer`)
-- [ ] Code pushed to GitHub
-- [ ] Vercel account created with GitHub
-- [ ] Project deployed to Vercel
-- [ ] Environment variable added (`TMDB_API_KEY`)
-- [ ] Live app tested and working
-- [ ] GitHub URL copied
-- [ ] Vercel URL copied
-- [ ] Submission email sent
-
----
-
-## 🆘 Troubleshooting
-
-### If GitHub push fails:
-```powershell
-# Check if remote is set correctly
-git remote -v
-
-# If wrong, remove and re-add
-git remote remove origin
-git remote add origin https://github.com/YOUR-USERNAME/movie-explorer.git
-git push -u origin main
-```
-
-### If Vercel build fails:
-1. Check build logs in Vercel dashboard
-2. Verify environment variable is set correctly
-3. Make sure API key has no extra spaces
-4. Try redeploying
-
-### If movies don't load on deployed app:
-1. Check browser console (F12 → Console)
-2. Verify `TMDB_API_KEY` environment variable in Vercel settings
-3. Test API key at: https://www.themoviedb.org/settings/api
-4. Redeploy after fixing environment variable
-
----
-
-## 🎉 You're Almost Done!
-
-Once deployed, your app will be live and accessible to anyone with the URL. The interviewers can test it without needing to run it locally.
-
-Good luck with your submission! 🚀
