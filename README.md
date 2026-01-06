@@ -2,10 +2,6 @@
 
 A Next.js web application for searching movies, viewing details, and managing your favorite films with personal ratings and notes.
 
-## Live Demo
-
-[Deploy on Vercel]([[https://vercel.com](https://movie-explorer-gamma-two.vercel.app/)](https://recommend-ai-nine.vercel.app/)) 
-
 ## ✨ Features
 
 - **Movie Search**: Search movies by title using The Movie Database (TMDB) API
@@ -17,7 +13,7 @@ A Next.js web application for searching movies, viewing details, and managing yo
 - **Error Handling**: Graceful handling of API errors, network issues, and edge cases
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Frontend**: Next.js 14+ (React, TypeScript)
 - **Styling**: Tailwind CSS
@@ -26,7 +22,7 @@ A Next.js web application for searching movies, viewing details, and managing yo
 - **Data Persistence**: LocalStorage
 - **Image Optimization**: Next.js Image component
 
-## 📋 Requirements
+## Requirements
 
 Before running this project, you need:
 
@@ -37,7 +33,7 @@ Before running this project, you need:
    - Sign up at: https://www.themoviedb.org/signup
    - Get your API key at: https://www.themoviedb.org/settings/api
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install Node.js
 
@@ -104,7 +100,7 @@ movie-explorer/
 └── package.json                   # Dependencies and scripts
 ```
 
-## 🔧 Technical Decisions & Tradeoffs
+## Technical Decisions & Tradeoffs
 
 ### 1. API Proxy Architecture
 **Decision**: Used Next.js API routes to proxy TMDB API calls  
@@ -175,7 +171,7 @@ movie-explorer/
    - E2E tests (Playwright)
    - API integration tests
 
-## 🚢 Deployment
+## Deployment
 
 ### Deploy to Vercel (Recommended)
 
@@ -190,13 +186,13 @@ movie-explorer/
 2. Deploy the `.next` folder
 3. Configure environment variables in Netlify dashboard
 
-## 📝 Environment Variables
+## Environment Variables
 
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `TMDB_API_KEY` | Your TMDB API key | Yes |
 
-## 🤝 Development Time
+## Development Time
 
 This project was developed as a take-home assignment with an estimated 3-hour scope:
 
@@ -210,8 +206,3 @@ This project was developed as a take-home assignment with an estimated 3-hour sc
 
 This project is for demonstration purposes only.
 
-## 🙏 Acknowledgments
-
-- Movie data provided by [The Movie Database (TMDB)](https://www.themoviedb.org/)
-- Built with [Next.js](https://nextjs.org/)
-- Styled with [Tailwind CSS](https://tailwindcss.com/)
