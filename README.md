@@ -2,9 +2,9 @@
 
 A Next.js web application for searching movies, viewing details, and managing your favorite films with personal ratings and notes.
 
-## 🚀 Live Demo
+## Live Demo
 
-[Deploy on Vercel]([https://vercel.com](https://movie-explorer-gamma-two.vercel.app/)) 
+[Deploy on Vercel]([[https://vercel.com](https://movie-explorer-gamma-two.vercel.app/)](https://recommend-ai-nine.vercel.app/)) 
 
 ## ✨ Features
 
